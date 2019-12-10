@@ -1,0 +1,32 @@
+{
+  "login_001": {
+    "username": "13800001111",
+    "password": "123456",
+    "verify_code": "8888",
+    "expect": 1,
+    "name":"张三",
+    "age":18,
+    "address":"昌平TBD",
+    "success":true
+  },
+  "login_002": {
+    "username": "13800001121",
+    "password": "123456",
+    "verify_code": "8888",
+    "expect": -1,
+    "name":"张三",
+    "age":18,
+    "address":"昌平TBD",
+    "success":true
+  },
+  "login_003": {
+    "username": "13800001111",
+    "password": "1234567",
+    "verify_code": "8888",
+    "expect": -2,
+    "name":"张三",
+    "age":18,
+    "address":"昌平TBD",
+    "success":true
+  }
+}
